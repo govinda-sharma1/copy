@@ -15,3 +15,5 @@ app.use(express.static(path.resolve("./frontend/build")));
 app.get("*", (req, res) => {
   res.sendFile(path.resolve("./frontend/build/index.html"));
 });
+
+Expose 3306
