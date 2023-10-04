@@ -16,6 +16,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "node backend/server.js",
+    "dev" : "node backend/server.js",
+    "build": "npm i"
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "",
